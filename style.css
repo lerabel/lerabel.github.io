@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    max-width: 1400px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background: url(images/fon.avif);
+    padding: 50px;
+}
+.title{
+    font-size: 36px;
+    color: darkcyan;
+    text-align: center;
+    text-transform: uppercase;
+}
+.block{
+    margin: 50px 0 0 0;
+    border: 2px solid blue;
+    padding: 40px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, aqua,rgb(255, 43, 255),rgb(61, 61, 255), aqua);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+img{
+    width: 500px;
+    height: auto;
+}
